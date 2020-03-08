@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+minMoney: 1
+maxMoney: 100
+
+limit:
+  minMoney: 1
+  maxMoney: 100
+  description: 最小的金额限制为:${limit.minMoney}
